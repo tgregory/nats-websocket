@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="client.js"></script>
+        <style>
+            html,body {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+            }
+            
+            #message-board {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+                height: 40em;
+            }
+                        
+            #message {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+            }
+            
+            #send {
+                margin: 0px;
+                padding: 0px;
+                width: 3em;
+                display: block;
+            }
+            
+            #message-cont {
+                width: 40em;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="user"></div>
+        <table id="message-board"></table>
+        <table id="message-cont">
+            <tr>
+                <td style="white-space: nowrap;">
+                    <button id="send">Send</button>
+                </td>
+                <td style="width: 37em;">
+                    <input type="text" id="message"/>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
